@@ -20,7 +20,7 @@ fh = finance.fetch_historical_yahoo(ticker, startdate, enddate)
 r = mlab.csv2rec(fh)
 fh.close()
 r.sort()
-
+# test commit comment
 
 def moving_average(x, n, type='simple'):
     """
